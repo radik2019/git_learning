@@ -1,6 +1,7 @@
 ciao
 ciao
 ciao
+<<<<<<< HEAD
 ciao
 ciao
 ciao cacao ThirdBranch
@@ -8,3 +9,10 @@ ciao cacao ThirdBranch
 ciao cacao ThirdBranch
 ciao cacao ThirdBranch
 ciao cacao ThirdBranch
+=======
+ciao cacao
+ciao cacao 2
+ciao cacao second branch
+ciao cacao second branch
+ciao cacao second branch
+>>>>>>> SecondBranch

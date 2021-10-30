@@ -4,6 +4,7 @@ ciao
 <<<<<<< HEAD
 ciao
 ciao
+<<<<<<< HEAD
 ciao cacao ThirdBranch
 ciao cacao ThirdBranch
 ciao cacao ThirdBranch
@@ -26,3 +27,9 @@ ciao cacao NewBranche
 ciao cacao NewBranche
 ciao cacao NewBranche
 >>>>>>> NewBranche
+=======
+ciao cacao master
+ciao cacao master
+ciao cacao master
+ciao cacao master
+>>>>>>> master

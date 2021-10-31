@@ -8,16 +8,23 @@ $ git rm file
 $ git mov nome_file_da_modificate nome_file_modificato
 
 
-# mostra i commit del branch in cui ti trovi e le modifiche
-
-$ git log [-p] 
-
-# mostra un numero dei commit
-$ git log [-<numero>]
-es. git log -4
 
 
 
+git log
+
+	# mostra i commit del branch in cui ti trovi e le modifiche
+	$ git log [-p] 
+
+	# mostra un numero dei commit
+	$ git log [-<numero>]
+	es. git log -4
+
+	# mostra i commit con le informazioni delle modifiche 
+	# effettuate :
+		il file modificato
+		numero di righe modificate o rimosse o aggiunte
+	$ git log --stat
 
 
 

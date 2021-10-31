@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ciao
 ciao
 ciao
@@ -42,3 +43,11 @@ ciao cacao main
 ciao cacao main
 ciao cacao main
 ciao cacao main
+=======
+si inizia dal foglio bianco
+------dd
+dd
+dd
+dd
+sdfasdgsdfgsd
+>>>>>>> 7a99b6da048a25746337ef0cd584299c2344a4c9

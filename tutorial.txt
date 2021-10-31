@@ -1,0 +1,17 @@
+
+
+# per rimuover un file dall'index
+$ git rm file
+
+
+# per modificare i nomi dei file seguiti
+$ git mov nome_file_da_modificate nome_file_modificato
+
+
+
+
+
+
+
+
+

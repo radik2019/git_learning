@@ -1,0 +1,97 @@
+
+
+# per rimuover un file dall'index
+$ git rm file
+
+
+# per modificare i nomi dei file seguiti
+$ git mov nome_file_da_modificate nome_file_modificato
+
+
+
+
+
+git log
+
+	# mostra i commit del branch in cui ti trovi e le modifiche
+	$ git log [-p] 
+
+	# mostra un numero dei commit
+	$ git log [-<numero>]
+	es. git log -4
+
+	# mostra i commit con le informazioni delle modifiche 
+	# effettuate :
+		il file modificato
+		numero di righe modificate o rimosse o aggiunte
+	$ git log --stat
+
+
+	$ git log --pretty=format:"%h - %an, %ar : %s"
+		Описания вывода
+		%H Хеш коммита
+		%h Сокращенный хеш коммита
+		%T Хеш дерева
+		%t Сокращенный хеш дерева
+		%P Хеш родителей
+		%p Сокращенный хеш родителей
+		%an Имя автора
+		%ae Электронная почта автора
+		%ad Дата автора (формат даты можно задать опцией --date=option)
+		%ar Относительная дата автора
+		%cn Имя коммитера
+		%ce Электронная почта коммитера
+		%cd Дата коммитера
+		%cr Относительная дата коммитера
+		%s Содержание
+
+	# per trovare la stringa che e' stata modificata lultima volta
+	$ git log -S "# per rimuover un file dall'index"
+
+	# visualizza l'ultimo commit dove sono stati apportate
+	# 	modifiche a un determinato file
+	$ git log -- path/to/file
+
+----------------------------------------------------------------
+	Показывает только последние n коммитов.
+	-(n)
+
+
+	Показывает только те коммиты, которые были сделаны
+	после указанной даты.
+	--since, --after
+
+	Показывает только те коммиты, которые были сделаны до
+	указанной даты.
+	--until, --before
+
+	Показывает только те коммиты, в которых запись author
+	совпадает с указанной строкой.
+	--author
+
+	Показывает только те коммиты, в которых запись committer
+	совпадает с указанной строкой.
+	--committer
+
+	Показывает только коммиты, сообщение которых содержит
+	указанную строку.
+	--grep
+
+	Показывает только коммиты, в которых изменение в коде
+	повлекло за собой добавление или удаление указанной
+	строки.
+	-S
+-----------------------------------------------------------
+	es.: git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" \
+	--before="2008-11-01" --no-merges -- t/
+
+
+# se si e' fatto il commit prima di aggiungere altro e
+# lo si vuole modificare annullando lultimo commit
+$ git commit --amend
+
+
+
+
+
+

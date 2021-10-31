@@ -91,16 +91,13 @@ git log
 $ git commit --amend
 
 
-# creare alias
-$ git config --global alias.unstage 'reset HEAD --'
-
-================
-branch Main
-================
 
 
+**************************
+branch NuovoRamo
+***************************
 
 
-
-
-
+scegliere la versione de file quando si maerge
+git merge -Xtheirs NuovoRamo
+git merge -Xours NuovoRamo

@@ -1,0 +1,16 @@
+
+
+# invisibile il file "another_file.txt"
+another_file.txt
+
+# invisibile file che finisce con ".py"
+*.py
+
+#invisibile qualsiasi file che inizia con "d", "f" o "g" 
+[dfg]*
+
+# visibili nonostante il divieto di prima
+!fvisibile.txt
+!file.txt
+
+

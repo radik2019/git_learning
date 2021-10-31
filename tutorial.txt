@@ -94,4 +94,13 @@ $ git commit --amend
 # creare alias
 $ git config --global alias.unstage 'reset HEAD --'
 
+================
+branch Main
+================
+
+
+
+
+
+
 

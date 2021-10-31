@@ -101,3 +101,6 @@ branch NuovoRamo
 scegliere la versione de file quando si maerge
 git merge -Xtheirs NuovoRamo
 git merge -Xours NuovoRamo
+				opure 
+git merge -s ours <branch>
+git merge -s theirs <branch>

@@ -48,5 +48,10 @@ git log
 	# per trovare la stringa che e' stata modificata lultima volta
 	$ git log -S "# per rimuover un file dall'index"
 
+	# visualizza l'ultimo commit dove sono stati apportate
+	# 	modifiche a un determinato file
+	$ git log -- path/to/file
+
+
 
 

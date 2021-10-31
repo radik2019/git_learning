@@ -45,5 +45,8 @@ git log
 		%cr Относительная дата коммитера
 		%s Содержание
 
+	# per trovare la stringa che e' stata modificata lultima volta
+	$ git log -S "# per rimuover un file dall'index"
+
 
 

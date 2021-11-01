@@ -85,13 +85,24 @@ git log
 	es.: git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" \
 	--before="2008-11-01" --no-merges -- t/
 
+	# log a colori
+	git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+
+
 
 # se si e' fatto il commit prima di aggiungere altro e
 # lo si vuole modificare annullando lultimo commit
 $ git commit --amend
 
+					git tag
+				________________
+creare un tag al commit
+$ git tag -a  v1.0 -m "versione 1.0, da qui si inizia"
 
+per visualizzare i tag
+$ git tag
 
-
-
+vat
+git checkout v1.0
 

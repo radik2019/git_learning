@@ -85,18 +85,44 @@ git log
 	es.: git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" \
 	--before="2008-11-01" --no-merges -- t/
 
-
-# se si e' fatto il commit prima di aggiungere altro e
-# lo si vuole modificare annullando lultimo commit
-$ git commit --amend
-
-
+	# log a colori
+	git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 
 **************************
 branch NuovoRamo
 ***************************
 
+					git commit 
+				________________
+# se si e' fatto il commit prima di aggiungere altro e
+# lo si vuole modificare annullando lultimo commit
+$ git commit -a --amend
+
+					git tag
+				________________
+============================================
+	creare un tag con commentato al commit
+$ git tag -a  v1.0 -m "versione 1.0, da qui si inizia"
+============================================
+	creare tag senza commento
+$ git tag v1.4-lw
+============================================
+	cancellare un teg
+$ git tag -d v1.4-lw
+============================================
+	per visualizzare i tag
+$ git tag
+============================================
+	aggiornare i tag nella remote repository
+$ git push origin --tags
+============================================
+	eliminare un tag nella repository remota
+$ git push origin --delete <tagname>
+
+
+vat
+git checkout v1.0
 
 scegliere la versione de file quando si maerge
 git merge -Xtheirs NuovoRamo

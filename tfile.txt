@@ -6,7 +6,15 @@ cambiamento 4
 cambiamento 4
 cambiamento 4
 cambiamento 4
+<<<<<<< HEAD
 nnnn
 nnnn
 nnnn
 nnnn
+=======
+gg
+gg
+gg
+gg
+gg
+>>>>>>> main

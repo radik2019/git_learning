@@ -104,3 +104,10 @@ git merge -Xours NuovoRamo
 				opure 
 git merge -s ours <branch>
 git merge -s theirs <branch>
+
+
+AGGIUNTO CIO CHE SI PUO' AGGIUNGERE
+
+
+
+
